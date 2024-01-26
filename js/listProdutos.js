@@ -74,7 +74,7 @@ function addToCart() {
     document.getElementById('total-item').innerText = 'Total Item: ' + cartData.length;
 
     document.getElementById('cart-plus').innerText = ' ' + cartData.length;
-    document.getElementById('total-price').innerText = 'VALOR TOTAL: ' + sum + ',00 R$';
+    document.getElementById('total-price').innerText = 'Preço Total: ' + sum + ',00 R$';
 
     cartItems();
 }
@@ -178,6 +178,6 @@ function totalAmount() {
     })
 
     document.getElementById('total-item').innerText = 'Total Item: ' + quantidade;
-    document.getElementById('total-price').innerText = 'VALOR TOTAL: ' + sum + ',00 R$';
+    document.getElementById('total-price').innerText = 'Preço Total: ' + sum + ',00 R$';
 
 }
