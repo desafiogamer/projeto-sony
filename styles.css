@@ -63,9 +63,6 @@ body{
 
 #inicio{
     display: none;
-}
-
-section{
     min-height: 100vh;
 }
 
